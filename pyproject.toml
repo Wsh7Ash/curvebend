@@ -1,0 +1,12 @@
+[build-system]
+requires=["setuptools>=61.0"]
+build-backend="setuptools.build_meta"
+[project]
+name="curvebend"
+version="0.1.0"
+description="Deterministic SIR epidemic simulator that compares intervention scenarios and reports peak/attack-rate metrics"
+readme="README.md"
+requires-python=">=3.10"
+dependencies=[]
+[tool.setuptools.packages.find]
+where=["src"]
